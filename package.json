@@ -7,7 +7,11 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "test:unit": "vue-cli-service test:unit",
+<<<<<<< HEAD
     "start": "npm install --only=dev --no-shrinkwrap && npm run build && node server.js"
+=======
+    "start": "npm install --only=dev --no-shrinkwrap && npm run build && node server.js",
+>>>>>>> 5aa3099804f98b27afca92302d4846f4b2d50480
   },
   "dependencies": {
     "register-service-worker": "^1.5.2",
