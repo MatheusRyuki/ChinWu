@@ -1,2 +1,2 @@
 # ChinWu
-Site para uma academia
+Site para uma academia de arte-marciais.
