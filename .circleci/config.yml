@@ -5,6 +5,7 @@ jobs:
       - image: node:10.12
     working_directory: ~
     steps:
+      - run: ls
       - run: npm install --progress=false
       - run: npm run build
 
