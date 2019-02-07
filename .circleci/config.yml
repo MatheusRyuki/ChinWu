@@ -3,10 +3,11 @@ jobs:
   build site:
     docker:
       - image: node:10.12
+    working_directory: ~
     steps:
       - run: pwd
       - run: cd root
-      - run: pwd 
+      - run: pwd
       - run: npm install --progress=false
       - run: npm run build
 
