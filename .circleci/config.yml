@@ -2,14 +2,14 @@ version: 2
 jobs:
   build site:
     docker:
-      -node:10.12
+      - image: node:10.12
     steps:
-        - run: npm install --progress=false
-        - run: npm run build
+      - run: npm install --progress=false
+      - run: npm run build
 
   unit test:
     docker:
-      - node:10.12
+      - image: node:10.12
     steps:
        - run: npm install --progress=false
        - run: npm run test:unit
