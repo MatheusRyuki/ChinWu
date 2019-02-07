@@ -3,7 +3,7 @@ jobs:
   build site:
     docker:
       - image: node:10.12
-    working_directory: ~/project
+    working_directory: ~/Chinwu
     steps:
       - run: ls
       - run: npm install --progress=false
@@ -12,7 +12,7 @@ jobs:
   unit test:
     docker:
       - image: node:10.12
-    working_directory: ~/project
+    working_directory: ~/Chinwu
     steps:
        - run: npm install --progress=false
        - run: npm run test:unit
