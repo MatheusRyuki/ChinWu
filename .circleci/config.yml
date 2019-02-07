@@ -1,0 +1,27 @@
+version: 2
+jobs:
+  build site:
+    docker:
+      - image: node:10.12
+    working_directory: ~/Chinwu
+    steps:
+      - checkout
+      - run: npm install --progress=false
+      - run: npm run build
+
+  unit test:
+    docker:
+      - image: node:10.12
+    working_directory: ~/Chinwu
+    steps:
+       - checkout
+       - run: npm install --progress=false
+       - run: npm run test:unit
+workflows:
+  version: 2
+  one_and_two:
+    jobs:
+      - build site
+      - unit test:
+          requires:
+            - build site
