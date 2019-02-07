@@ -5,9 +5,8 @@ jobs:
       - image: node:10.12
     steps:
       - run: pwd
-      - run: cd ..
-      - run: pwd
-      - run: ls
+      - run: cd root
+      - run: pwd 
       - run: npm install --progress=false
       - run: npm run build
 
