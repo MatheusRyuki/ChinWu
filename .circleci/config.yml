@@ -3,7 +3,7 @@ jobs:
   build site:
     docker:
       - image: node:10.12
-    working_directory: ~
+    working_directory: ~/project
     steps:
       - run: ls
       - run: npm install --progress=false
@@ -12,6 +12,7 @@ jobs:
   unit test:
     docker:
       - image: node:10.12
+    working_directory: ~/project
     steps:
        - run: npm install --progress=false
        - run: npm run test:unit
