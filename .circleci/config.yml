@@ -6,7 +6,6 @@ jobs:
     working_directory: ~/Chinwu
     steps:
       - checkout
-      - run: ls
       - run: npm install --progress=false
       - run: npm run build
 
