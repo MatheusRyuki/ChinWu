@@ -5,6 +5,7 @@ jobs:
       - image: node:10.12
     working_directory: ~/Chinwu
     steps:
+      - checkout
       - run: ls
       - run: npm install --progress=false
       - run: npm run build
@@ -14,6 +15,7 @@ jobs:
       - image: node:10.12
     working_directory: ~/Chinwu
     steps:
+       - checkout
        - run: npm install --progress=false
        - run: npm run test:unit
 workflows:
