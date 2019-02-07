@@ -17,7 +17,7 @@ workflows:
   version: 2
   one_and_two:
     jobs:
-      - buid site
+      - build site
       - unit test:
           requires:
-            - buid site
+            - build site
