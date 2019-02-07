@@ -19,3 +19,11 @@ jobs:
     steps:
        - run: npm install --progress=false
        - run: npm run test:unit
+workflows:
+  version: 2
+  one_and_two:
+    jobs:
+      - buid site
+      - unit test:
+          requires:
+            - buid site
