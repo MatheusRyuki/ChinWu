@@ -1,21 +1,21 @@
 version: 2
 jobs:
   build site:
-    image: node:10.12
-    stage: build
-    script:
-      - npm install --progress=false
-      - npm run build
-    artifacts:
-      expire_in: 1 week
+    docker:
+      -node:10.12
+    steps:
+        - run: npm install --progress=false
+        - run: npm run build
+      artifacts:
+        expire_in: 1 week
       paths:
         - dist
 
 
 
   unit test:
-    image: node:10.12
-    stage: test
-    script:
-      - npm install --progress=false
-      - npm run test:unit
+    docker:
+      - node:10.12
+    steps:
+       - run: npm install --progress=false
+       - run: npm run test:unit
