@@ -25,11 +25,11 @@
 export default {
   data() {
     return {
-      language: "Idioma",
-      login: "Login",
-      register: "Registrar-se"
-    }
-  }
+      language: 'Idioma',
+      login: 'Login',
+      register: 'Registrar-se',
+    };
+  },
 };
 </script>
 

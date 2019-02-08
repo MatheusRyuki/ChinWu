@@ -15,7 +15,7 @@ export default {
   components: {
     appHeader: Header,
     appMenu: SubHeader,
-    appHighlight: Highlight
+    appHighlight: Highlight,
   },
 };
 </script>

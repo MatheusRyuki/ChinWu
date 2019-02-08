@@ -38,16 +38,16 @@
 export default {
   data() {
     return {
-      Home: "Home",
-      About: "Sobre Nós",
-      Courses: "Cursos",
-      Gallery: "Galeria",
-      Blog: "Blog",
-      Contact: "Contato",
-      Membership: "Franquias"
-    }
-  }
-}
+      Home: 'Home',
+      About: 'Sobre Nós',
+      Courses: 'Cursos',
+      Gallery: 'Galeria',
+      Blog: 'Blog',
+      Contact: 'Contato',
+      Membership: 'Franquias',
+    };
+  },
+};
 </script>
 
 <style scoped>
