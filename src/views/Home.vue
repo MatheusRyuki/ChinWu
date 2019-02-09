@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="main">
     <app-header></app-header>
     <app-menu></app-menu>
     <app-highlight></app-highlight>
@@ -19,3 +19,14 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+#main {
+  background: url("../assets/1.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 100vh;
+}
+</style>

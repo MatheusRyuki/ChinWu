@@ -1,7 +1,11 @@
 <template>
   <div id="menu">
     <div class="ui container">
-      <div class="ui secondary menu">
+      <div class="ui stackable container secondary menu">
+        <a class="item">
+          <img class="ui tiny image" src="@/assets/logo.jpeg">
+        </a>
+         <div class="right menu">
         <a class="item">
           {{Home}}
         </a>
@@ -29,6 +33,7 @@
         <i class="search link icon"></i>
       </div>
     </div>
+    </div>
       </div>
     </div>
   </div>
@@ -53,5 +58,11 @@ export default {
 <style scoped>
 #menu {
   border-bottom: 1px blue solid;
+}
+.ui.secondary.menu .item {
+  color: white;
+}
+.ui.secondary.menu .item:hover {
+  color: WHITE;
 }
 </style>
