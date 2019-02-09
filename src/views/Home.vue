@@ -23,6 +23,7 @@ export default {
 <style scoped>
 #main {
   background: url("../assets/1.jpg") no-repeat center center fixed;
+  background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

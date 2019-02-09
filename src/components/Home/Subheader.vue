@@ -58,11 +58,13 @@ export default {
 <style scoped>
 #menu {
   border-bottom: 1px blue solid;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 .ui.secondary.menu .item {
   color: white;
 }
 .ui.secondary.menu .item:hover {
-  color: WHITE;
+  color: black;
+  background-color: white;
 }
 </style>
