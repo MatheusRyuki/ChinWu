@@ -22,12 +22,13 @@ export default {
 
 <style scoped>
 #main {
-  background: url("../assets/1.jpg") no-repeat center center fixed;
+  background: url("../assets/1.png") no-repeat center center fixed;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
+        background-color: rgba(0, 0, 0, 0.5);
 }
 </style>

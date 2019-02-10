@@ -16,8 +16,11 @@ export default {};
 <style scoped>
 .ui.header {
   color: white;
+  font-size: 4rem;
+  margin-top: 10rem;
 }
 h1.ui.header .sub.header {
+  font-size: 1.5rem;
   color: white;
 }
 </style>
