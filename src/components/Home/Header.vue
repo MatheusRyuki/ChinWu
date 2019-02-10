@@ -39,13 +39,13 @@ export default {
       register: 'Registrar-se',
       pt: 'Português  ',
       en: 'Inglês  ',
-      es: 'Espanhol  '
+      es: 'Espanhol  ',
     };
   },
   mounted() {
     // eslint-disable-next-line
     $(".ui.dropdown").dropdown();
-  }
+  },
 };
 </script>
 
