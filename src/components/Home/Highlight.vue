@@ -6,6 +6,7 @@
       Conheça nossas modalidades, nossas conquistas e nossa filosofias!
     </div>
   </h1>
+<button class="ui massive left floated teal button">Fale conosco!</button>
   </div>
 </template>
 
