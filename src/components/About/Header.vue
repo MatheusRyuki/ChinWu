@@ -9,8 +9,8 @@
 export default {
   data() {
     return {
-      melhores: 'Nossos melhores serviços',
-      veja: 'Veja nossos serviços'
+      melhores: 'Nossas melhores partes',
+      veja: 'Veja nossos trabalhos'
     }
   }
 }
