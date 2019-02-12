@@ -9,9 +9,9 @@
         <a class="item">
           {{Home}}
         </a>
-        <a class="item">
+        <router-link :to="{ name: 'about'}" class="item">
           {{About}}
-        </a>
+        </router-link>
         <a class="item">
           {{Courses}}
         </a>

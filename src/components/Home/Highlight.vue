@@ -1,9 +1,9 @@
 <template>
   <div class="ui container">
-    <h1 class="ui left aligned header">Sejam bem vindos a <br>Academia Chin wu.
+    <h1 class="ui left aligned header">{{welcome}}<br>{{name}}
     <div class="sub header">
-      Onde você encontra o melhor do Kung Fu no Estado do Pará. <br>
-      Conheça nossas modalidades, nossas conquistas e nossa filosofias!
+      {{first}} <br>
+      {{second}}
     </div>
   </h1>
 <button class="ui massive left floated teal button">Fale conosco!</button>
@@ -11,7 +11,16 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      welcome: 'Sejam bem vindos a',
+      name: 'Academia Chin wu.',
+      first: 'Onde você encontra o melhor do Kung Fu no Estado do Pará.',
+      second: 'Conheça nossas modalidades, nossas conquistas e nossa filosofias!'
+    }
+  }
+};
 </script>
 
 <style scoped>
