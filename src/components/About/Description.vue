@@ -1,7 +1,16 @@
 <template lang="html">
 <div class="ui container">
-  <h4 class="ui header blue">{{descricao}}</h4>
-  <h1 class="ui header">{{about}}</h1>
+  <div class="ui grid">
+    <div class="three column row">
+      <div class="column">
+      </div>
+      <div class="eight wide column left aligned">
+        <h4 class="ui header blue">{{descricao}}</h4>
+        <h1 class="ui header">{{about}}</h1>
+        <p>{{history}}</p>
+      </div>
+</div>
+</div>
 </div>
 </template>
 
@@ -11,6 +20,7 @@ export default {
     return {
       descricao: 'Nossa História',
       about: 'Sobre nós',
+      history: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt massa a blandit varius. Praesent porttitor elit ultrices orci mollis aliquet. Proin rutrum a sapien non tempus. Etiam sed efficitur urna. Duis ultricies aliquam risus, non pellentesque nulla aliquam et. Maecenas in consectetur quam. Curabitur consequat rutrum lacus, vitae vestibulum nunc volutpat eu. Mauris porttitor euismod augue, sit amet lobortis nulla sagittis sed. Mauris placerat scelerisque justo, non laoreet arcu mollis vitae. Vestibulum diam dolor, eleifend id ligula ac, ullamcorper consectetur urna. Nulla egestas orci eget risus elementum, eu tristique tortor iaculis.',
     }
   }
 }
