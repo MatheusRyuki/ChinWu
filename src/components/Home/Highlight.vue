@@ -6,7 +6,9 @@
       {{second}}
     </div>
   </h1>
-<button class="ui massive left floated teal button">Fale conosco!</button>
+  <router-link :to="{ name: 'about'}">
+<button class="ui massive left floated teal button">{{show}}</button>
+</router-link>
   </div>
 </template>
 
@@ -17,7 +19,8 @@ export default {
       welcome: 'Sejam bem vindos a',
       name: 'Academia Chin wu.',
       first: 'Onde você encontra o melhor do Kung Fu no Estado do Pará.',
-      second: 'Conheça nossas modalidades, nossas conquistas e nossa filosofias!'
+      second: 'Conheça nossas modalidades, nossas conquistas e nossa filosofias!',
+      show: 'Veja você mesmo nossos trabalhos!',
     }
   }
 };
