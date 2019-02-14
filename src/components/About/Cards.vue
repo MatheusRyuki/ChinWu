@@ -79,4 +79,8 @@ export default {
 p {
   color: white;
 }
+.ui.card:hover {
+  filter: brightness(75%);
+  cursor: pointer;
+}
 </style>
