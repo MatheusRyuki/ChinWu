@@ -5,6 +5,7 @@
     <app-header></app-header>
     <app-cards></app-cards>
     <app-description></app-description>
+    <app-videos></app-videos>
   </div>
 </template>
 
@@ -14,6 +15,7 @@ import Cards from '@/components/About/Cards.vue';
 import Header from '@/components/About/Header0.vue';
 import SubHeader from '@/components/About/Subheader.vue';
 import Description from "@/components/About/Description.vue";
+import Videos from '@/components/About/Videos.vue';
 
 export default {
   components: {
@@ -22,6 +24,7 @@ export default {
     appCabeca: Header,
     appSubheader: SubHeader,
     appDescription: Description,
+    appVideos: Videos
   },
 };
 </script>
