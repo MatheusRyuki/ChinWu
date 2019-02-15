@@ -17,7 +17,7 @@ export default {
   data() {
     return {
       welcome: 'Sejam bem vindos a',
-      name: 'Academia Chin wu.',
+      name: 'Associação Chin wu.',
       first: 'Onde você encontra o melhor do Kung Fu no Estado do Pará.',
       second: 'Conheça nossas modalidades, nossas conquistas e nossa filosofias!',
       show: 'Veja você mesmo nossos trabalhos!',
