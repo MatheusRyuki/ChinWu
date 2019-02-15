@@ -49,10 +49,10 @@ export default {
       gallery: 'Galeria',
       descriptionGallery: 'Veja aqui as fotos e vídeos dos últimos eventos nossos!',
       group: 'Franquias',
-      descriptionGroup: 'Como se tornar participante de nossa associação'
-    }
-  }
-}
+      descriptionGroup: 'Como se tornar participante de nossa associação',
+    };
+  },
+};
 </script>
 
 <style lang="css" scoped>
@@ -78,5 +78,9 @@ export default {
 }
 p {
   color: white;
+}
+.ui.card:hover {
+  filter: brightness(75%);
+  cursor: pointer;
 }
 </style>

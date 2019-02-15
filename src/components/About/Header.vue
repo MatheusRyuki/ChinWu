@@ -10,10 +10,10 @@ export default {
   data() {
     return {
       melhores: 'Nossas melhores partes',
-      veja: 'Veja nossos trabalhos'
-    }
-  }
-}
+      veja: 'Veja nossos trabalhos',
+    };
+  },
+};
 </script>
 
 <style lang="css" scoped>
