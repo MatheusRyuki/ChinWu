@@ -14,7 +14,7 @@ import Header2 from '@/components/About/Header.vue';
 import Cards from '@/components/About/Cards.vue';
 import Header from '@/components/About/Header0.vue';
 import SubHeader from '@/components/About/Subheader.vue';
-import Description from "@/components/About/Description.vue";
+import Description from '@/components/About/Description.vue';
 import Videos from '@/components/About/Videos.vue';
 
 export default {
@@ -24,7 +24,7 @@ export default {
     appCabeca: Header,
     appSubheader: SubHeader,
     appDescription: Description,
-    appVideos: Videos
+    appVideos: Videos,
   },
 };
 </script>
