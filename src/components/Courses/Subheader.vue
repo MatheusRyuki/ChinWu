@@ -6,15 +6,15 @@
           <img class="ui tiny image" src="@/assets/logo.jpeg">
         </a>
          <div class="right menu">
-        <a class="item">
+        <router-link :to="{ name: 'home'}" class="item">
           {{Home}}
-        </a>
+        </router-link>
         <router-link :to="{ name: 'about'}" class="item">
           {{About}}
         </router-link>
-        <router-link :to="{ name: 'courses'}" class="item">
+        <a class="item">
           {{Courses}}
-        </router-link>
+        </a>
         <a class="item">
           {{Gallery}}
         </a>
@@ -61,11 +61,8 @@ export default {
 }
 .ui.secondary.menu .item {
   font-weight: bolder;
-  color: white;
 }
 .ui.secondary.menu .item:hover {
-  color: black;
-  font-weight: bolder;
-  background-color: white;
+  filter: brightness(75%);
 }
 </style>
