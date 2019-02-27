@@ -42,6 +42,6 @@ export default new Router({
       path: '/Courses',
       name: 'courses',
       component: Courses,
-    }
+    },
   ],
 });

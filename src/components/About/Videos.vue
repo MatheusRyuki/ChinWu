@@ -3,7 +3,9 @@
     <div id="text">
       <h2 class="ui header text-light ">{{title}}</h2>
       <h1 class="ui header text-light">{{message}}</h1>
-      <button id="button" class="ui primary labeled icon button"><i class="play icon"></i>{{information}}</button>
+      <button id="button" class="ui primary labeled icon button">
+        <i class="play icon"></i>
+        {{information}}</button>
     </div>
     <video class="ui fluid image"
   src="@/assets/Kungfu.mp4"

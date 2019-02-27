@@ -1,11 +1,20 @@
 <template>
-  <div class="ui container">
-    <h1>teste</h1>
+  <div>
+    <app-header></app-header>
+    <app-menu></app-menu>
   </div>
 </template>
 
 <script>
-export default {};
+import Header from '@/components/Courses/Header.vue';
+import Subheader from '@/components/Courses/Subheader.vue';
+
+export default {
+  components: {
+    appHeader: Header,
+    appMenu: Subheader,
+  },
+};
 </script>
 
 <style scoped>
