@@ -1,6 +1,6 @@
 <template lang="html">
         <div class="column">
-          <div class="ui card">
+          <div class="ui card" :style=estilo>
           <div class="content">
           <i class="huge user icon"></i>
           <div class="header">{{curso}}</div>
@@ -14,7 +14,7 @@
 
 <script>
 export default {
-  props: ['curso', 'descricao'],
+  props: ['curso', 'descricao', 'estilo'],
 };
 </script>
 
