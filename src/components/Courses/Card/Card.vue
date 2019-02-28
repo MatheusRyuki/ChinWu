@@ -1,0 +1,31 @@
+<template lang="html">
+        <div class="column">
+          <div class="ui card">
+          <div class="content">
+          <i class="huge user icon"></i>
+          <div class="header">{{curso}}</div>
+          <div class="description">
+            <p>{{descricao}}</p>
+          </div>
+        </div>
+          </div>
+        </div>
+</template>
+
+<script>
+export default {
+  props: ['curso', 'descricao'],
+};
+</script>
+
+<style lang="css" scoped>
+.ui.card {
+  border-radius: 0 20% 0 20%;
+}
+.ui.grid {
+  margin-top: 5%;
+}
+.ui.card>.content>.header:not(.ui), .ui.cards>.card>.content>.header:not(.ui) {
+  margin-top: 5%;
+}
+</style>
