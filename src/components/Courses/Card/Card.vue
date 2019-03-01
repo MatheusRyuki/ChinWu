@@ -1,8 +1,8 @@
 <template lang="html">
         <div class="column">
-          <div class="ui card">
+          <div class="ui card" :style=estilo>
           <div class="content">
-          <i class="huge user icon"></i>
+          <i class="huge user blue icon"></i>
           <div class="header">{{curso}}</div>
           <div class="description">
             <p>{{descricao}}</p>
@@ -14,13 +14,17 @@
 
 <script>
 export default {
-  props: ['curso', 'descricao'],
+  props: ['curso', 'descricao', 'estilo'],
 };
 </script>
 
 <style lang="css" scoped>
 .ui.card {
+  text-align: left;
   border-radius: 0 20% 0 20%;
+}
+.description {
+  margin-bottom: 5%;
 }
 .ui.grid {
   margin-top: 5%;
