@@ -14,8 +14,8 @@ export default {
       subtitle: 'veja nossos melhores momentos',
       title: 'Portfólio',
     };
-  }
-}
+  },
+};
 </script>
 
 <style lang="css" scoped>

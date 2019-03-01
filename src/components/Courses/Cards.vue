@@ -31,7 +31,7 @@ export default {
         id: 3,
         curso: 'Wushu',
         descricao: 'Wushu é um termo chinês que, literalmente, significa "arte da guerra" ou "arte marcial". Na China, este termo caracteriza qualquer estilo de arte marcial, ou tarefa feita com perfeição, não apenas artes marciais.',
-        estilo: 'margin-top: 10%'
+        estilo: 'margin-top: 10%',
       }],
     };
   },
