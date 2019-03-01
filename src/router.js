@@ -6,6 +6,7 @@ Vue.use(Router);
 const HomeComponent = require('@/views/Home.vue');
 const AboutComponent = require('@/views/About.vue');
 const CoursesComponent = require('@/views/Courses.vue');
+const GalleryComponent = require('@/views/Gallery.vue');
 
 const Home = (resolve) => {
   require.ensure(['@/views/Home.vue'], () => {
@@ -22,6 +23,12 @@ const About = (resolve) => {
 const Courses = (resolve) => {
   require.ensure(['@/views/Courses.vue'], () => {
     resolve(CoursesComponent);
+  });
+};
+
+const Gallery = (resolve) => {
+  require.ensure(['@/views/Gallery.vue'], () => {
+    resolve(GalleryComponent);
   });
 };
 
@@ -42,6 +49,11 @@ export default new Router({
       path: '/Courses',
       name: 'courses',
       component: Courses,
+    },
+    {
+      path: '/Gallery',
+      name: 'gallery',
+      component: Gallery,
     },
   ],
 });

@@ -9,15 +9,15 @@
         <router-link :to="{ name: 'home'}" class="item">
           {{Home}}
         </router-link>
-        <a class="item">
+        <router-link :to="{ name: 'about'}" class="item">
           {{About}}
-        </a>
+        </router-link>
         <router-link :to="{ name: 'courses'}" class="item">
           {{Courses}}
         </router-link>
-        <router-link :to="{ name: 'gallery'}" class="item">
+        <a class="item">
           {{Gallery}}
-        </router-link>
+        </a>
         <a class="item">
           {{Blog}}
         </a>
