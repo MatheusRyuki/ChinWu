@@ -12,9 +12,9 @@
         <router-link :to="{ name: 'about'}" class="item">
           {{About}}
         </router-link>
-        <a class="item">
+        <router-link :to="{ name: 'gallery'}" class="item">
           {{Courses}}
-        </a>
+        </router-link>
         <a class="item">
           {{Gallery}}
         </a>

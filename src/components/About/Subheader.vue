@@ -15,9 +15,9 @@
         <router-link :to="{ name: 'courses'}" class="item">
           {{Courses}}
         </router-link>
-        <a class="item">
+        <router-link :to="{ name: 'gallery'}" class="item">
           {{Gallery}}
-        </a>
+        </router-link>
         <a class="item">
           {{Blog}}
         </a>
